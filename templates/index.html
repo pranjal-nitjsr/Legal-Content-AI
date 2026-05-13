@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Legal Content AI</title>
+</head>
+<body>
+    <h1>Legal Content AI</h1>
+    <p>AI-based legal content generation system</p>
+
+    <form method="POST">
+        <label>Service Type:</label><br>
+        <input type="text" name="service_type" placeholder="Example: Property Law" required><br><br>
+
+        <label>Target Audience:</label><br>
+        <input type="text" name="audience" placeholder="Example: Small Business Owners" required><br><br>
+
+        <label>Location:</label><br>
+        <input type="text" name="location" placeholder="Example: India" required><br><br>
+
+        <label>Tone:</label><br>
+        <input type="text" name="tone" placeholder="Example: Professional" required><br><br>
+
+        <button type="submit">Generate Content</button>
+    </form>
+
+    <hr>
+
+    <h2>Generated Content</h2>
+    <pre>{{ generated_content }}</pre>
+</body>
+          </html>
